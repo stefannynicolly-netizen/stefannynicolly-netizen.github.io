@@ -1,0 +1,66 @@
+/* 1. Fundo geral verde intermediário (nem tão claro , nem tão escuro)
+*/
+body {
+    background-color: #cffad1; /* Verde-folha equilibrado  */
+    color: #2b2b2b; /* Cinza escuro para melhor leitura */
+    font-family: Arial, sans-serif;
+}
+/* Destacar o título principal (Guia Prático) */
+h1 {
+    color:#388e3c; /* Verde */
+    text-align: center;
+}
+
+/* Destacar os subtítulos */
+h2 {
+    color: #388e3c; /* Outro tom de verde */
+    border-bottom: 2px solid
+    #a5d6a7; /* Limha decorativa verde clara */
+    padding-bottom: 5px;
+}
+
+mark {
+    background-color: #fff9c4; /* Um amarelo pastel bem mais suave */
+    color: #333333; /* Texto escuro para manter a leitura fácil */
+    padding: 2px 4px; /* Dá um pequeno respiro na bordas do texto */
+    border-radius: 4px; /* Arredonda levemente as pontas do destaque */
+}
+
+a {
+    color: #fff59d; /* Um tom de amarelo claro/creme que se destaca no verde */
+    font-weight: bold; /* Deixa o link em negrito */
+}
+
+a:hover {
+    color: #ffffff; /* Quando o mouse pasar por cima, o link fica branco */
+}
+
+/* Estiliza a caixinha do formulário */
+fieldset {
+    border: 2px solid #a5d6a7; /*
+    * Borda verde clara em vez da borda cinza padrão */
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* Estiliza os campos de digitação */
+input {
+    background-color: #ffffff; /*
+    Fundo branco limpo */
+    border: 1px solid #a5d6a7;
+    border-radius: 4px;
+    padding: 6px;
+    color: 333333;
+}
+
+/* Estiliza o botão de enviar */
+input[type="submit"], button {
+    background-color: #c8e6c9; /*
+    Botão verde claro */
+    color: #1b5e20; /* Texto verde escuro */
+    border: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
